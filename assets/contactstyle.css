@@ -1,0 +1,70 @@
+html {
+    background-color:lightgray;
+}
+
+.c-container {
+    font-family: 'Barlow', sans-serif;
+    position: absolute;
+    margin: 50px 80px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgb(5, 5, 5)
+}
+
+.h2contact {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.75rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+form, label, input, textarea, .center {
+    background-color: white;
+}
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid black;
+}
+
+input[type=submit] {
+	background: darkslategray;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out .5s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+input[type=submit]:focus {
+	background: rgb(163, 130, 255);
+	color: whitesmoke;
+}
+
+input[type=submit]:hover {
+	background: darkslategray;
+}
+
+.center {
+	text-align: center;
+}
