@@ -14,8 +14,8 @@ ul.boxes {
 .boxes1, .boxes2, .boxes3, .boxes4, .boxes5 {
     list-style: none;
     border: 1px solid black;
-    margin: 3em;
-    padding: 5em 4em;
+    margin: 5em;
+    padding: 5em 5em;
     background-color: #cfccff;
     box-shadow: 0 2px 10px rgb(5, 5, 5)
 }
@@ -75,7 +75,7 @@ a.boxes {
 }
 
 ul.navigation {
-    background-color: #282863;
+    background-color: #303030;
 }
 
 .logo {
@@ -90,7 +90,7 @@ li.navbar, a.navbar, footer{
     font-weight: 400;
     color: white;
     text-decoration: none;
-    background-color: #282863;
+    background-color: #303030;
 }
 
 header {
@@ -98,7 +98,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 10%;
-    background-color: #282863;
+    background-color: #303030;
     box-shadow: 0 2px 10px rgb(5, 5, 5);
 }
 
@@ -122,7 +122,7 @@ li.navbar a.navbar:hover {
 footer {
     display: absolute;
     margin-top: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -139,5 +139,5 @@ a.pfooter, p.pfooter {
     color: white;
     display: inline;
     text-decoration: none;
-    background-color: #282863;
+    background-color: #303030;
 }

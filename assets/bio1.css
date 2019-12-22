@@ -3,15 +3,21 @@ html, body {
     font-size: 16px;
 }
 
+body {
+    min-height: 100vh;
+    position: relative;
+    background-color: lightgray;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color:lightgray
 }
 
 ul {
-    background-color: #282863;
+    background-color: #303030;
 }
 
 .logo {
@@ -26,7 +32,7 @@ li.navbar, a, footer{
     font-weight: 400;
     color: white;
     text-decoration: none;
-    background-color: #282863;
+    background-color: #303030;
 }
 
 header {
@@ -34,7 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0px 10%;
-    background-color: #282863;
+    background-color: #303030;
     box-shadow: 0 2px 10px rgb(5, 5, 5);
 }
 
@@ -91,9 +97,8 @@ li a:hover {
 }
 
 footer {
-    display: absolute;
     margin-top: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -101,11 +106,14 @@ footer {
     box-shadow: 0 2px 10px rgb(5, 5, 5)
 }
 
-.pfooter {
+p.pfooter {
     list-style: none;
 }
 
-a, .pfooter {
+a.pfooter, p.pfooter {
+    font-family: 'Barlow', sans-serif;
+    color: white;
     display: inline;
-    background-color: #282863;
+    text-decoration: none;
+    background-color: #303030;
 }
