@@ -72,9 +72,12 @@ input[type=submit]:hover {
     p {
         font-size: 1.5rem;
     }
+    body {
+        color:darkred
+    }
 }
 
-@media (min-width: 800) {
+@media (min-width: 800px) {
     p {
         font-size: 1.5rem;
         line-height: 1.75;
