@@ -141,3 +141,16 @@ a.pfooter, p.pfooter {
     text-decoration: none;
     background-color: #303030;
 }
+
+@media (min-width: 600px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 800) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.75;
+    }
+}
